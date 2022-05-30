@@ -1,0 +1,17 @@
+{
+  "name": "nextjs-aws-cdk-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -F @marvel/application dev",
+    "deploy": "pnpm -F @marvel/infrastructure deploy",
+    "destroy": "pnpm -F @marvel/infrastructure destroy",
+    "clean": "pnpm -r exec rimraf \"{.next,out,cdk.out,node_modules,.serverless_nextjs}\" && rimraf node_modules",
+    "prettier": "prettier --write 'packages/**/*.{ts,tsx,js}'"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2"
+  }
+}
