@@ -14,8 +14,8 @@ importers:
 
   packages/application:
     specifiers:
-      '@types/node': 17.0.35
-      '@types/react': 18.0.9
+      '@types/node': 17.0.38
+      '@types/react': 18.0.10
       '@types/react-dom': 18.0.5
       autoprefixer: ^10.4.7
       next: latest
@@ -29,8 +29,8 @@ importers:
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
     devDependencies:
-      '@types/node': 17.0.35
-      '@types/react': 18.0.9
+      '@types/node': 17.0.38
+      '@types/react': 18.0.10
       '@types/react-dom': 18.0.5
       autoprefixer: 10.4.7_postcss@8.4.14
       postcss: 8.4.14
@@ -41,30 +41,30 @@ importers:
     specifiers:
       '@sls-next/cdk-construct': 3.8.0-alpha.0
       '@sls-next/lambda-at-edge': 3.8.0-alpha.0
-      '@types/jest': ^27.5.1
+      '@types/jest': ^28.1.0
       '@types/node': 14.14.31
       '@types/prettier': 2.6.3
-      aws-cdk: 2.25.0
-      aws-cdk-lib: 2.25.0
-      constructs: ^10.1.21
+      aws-cdk: 2.27.0
+      aws-cdk-lib: 2.27.0
+      constructs: ^10.1.25
       jest: ^28.1.0
       source-map-support: ^0.5.21
-      ts-jest: ^28.0.3
+      ts-jest: ^28.0.4
       ts-node: ^10.8.0
       typescript: ~4.7.2
     dependencies:
-      '@sls-next/cdk-construct': 3.8.0-alpha.0_svqes6mhdmoshqofkekcdl3guq
+      '@sls-next/cdk-construct': 3.8.0-alpha.0_x7vznwqrm53maafs4wumhp2hgm
       '@sls-next/lambda-at-edge': 3.8.0-alpha.0_typescript@4.7.2
-      aws-cdk-lib: 2.25.0_constructs@10.1.21
-      constructs: 10.1.21
+      aws-cdk-lib: 2.27.0_constructs@10.1.25
+      constructs: 10.1.25
       source-map-support: 0.5.21
     devDependencies:
-      '@types/jest': 27.5.1
+      '@types/jest': 28.1.0
       '@types/node': 14.14.31
       '@types/prettier': 2.6.3
-      aws-cdk: 2.25.0
+      aws-cdk: 2.27.0
       jest: 28.1.0_wtznr7rjqt45d2fagkvliwwhhm
-      ts-jest: 28.0.3_7sa2e64agunq5kj4zcolhrnkbm
+      ts-jest: 28.0.4_3idyv6jqzrc23kpntvtlm4rwnq
       ts-node: 10.8.0_q7hlifbojhdt3mphf34ddxtmrm
       typescript: 4.7.2
 
@@ -1309,10 +1309,6 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@balena/dockerignore/1.0.2:
-    resolution: {integrity: sha512-wMue2Sy4GAVTk6Ic4tJVcnfdau+gx2EnG7S+uAEe+TWJFqE4YoWN4/H8MSLj4eYJKxGg26lZwboEniNiNwZQ6Q==}
-    dev: false
-
   /@bcoe/v8-coverage/0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
@@ -1883,7 +1879,7 @@ packages:
       - webpack
     dev: false
 
-  /@sls-next/cdk-construct/3.8.0-alpha.0_svqes6mhdmoshqofkekcdl3guq:
+  /@sls-next/cdk-construct/3.8.0-alpha.0_x7vznwqrm53maafs4wumhp2hgm:
     resolution: {integrity: sha512-Uf68FBDqrUH+//JQOlUJXNSkiFVibQLtiutq9gtTXI6qDAsorwTYzOc6aoD3rWAqeJkddMbfzBmHrfnuT1jdYw==}
     peerDependencies:
       aws-cdk-lib: ^2.3.0
@@ -1891,8 +1887,8 @@ packages:
     dependencies:
       '@sls-next/core': 3.8.0-alpha.0_typescript@4.7.2
       '@sls-next/lambda-at-edge': 3.8.0-alpha.0_typescript@4.7.2
-      aws-cdk-lib: 2.25.0_constructs@10.1.21
-      constructs: 10.1.21
+      aws-cdk-lib: 2.27.0_constructs@10.1.25
+      constructs: 10.1.25
       fast-glob: 3.2.11
       fs-extra: 9.1.0
     transitivePeerDependencies:
@@ -2032,8 +2028,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.5.1:
-    resolution: {integrity: sha512-fUy7YRpT+rHXto1YlL+J9rs0uLGyiqVt3ZOTQR+4ROc47yNl8WLdVLgUloBRhOxP1PZvguHl44T3H0wAWxahYQ==}
+  /@types/jest/28.1.0:
+    resolution: {integrity: sha512-ITfF6JJIl9zbEi2k6NmhNE/BiDqfsI/ceqfvdaWaPbcrCpYyyRq4KtDQIWh6vQUru6SqwppODiom/Zhid+np6A==}
     dependencies:
       jest-matcher-utils: 27.5.1
       pretty-format: 27.5.1
@@ -2042,8 +2038,8 @@ packages:
   /@types/node/14.14.31:
     resolution: {integrity: sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==}
 
-  /@types/node/17.0.35:
-    resolution: {integrity: sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==}
+  /@types/node/17.0.38:
+    resolution: {integrity: sha512-5jY9RhV7c0Z4Jy09G+NIDTsCZ5G0L5n+Z+p+Y7t5VJHM30bgwzSjVtlcBxqAj+6L/swIlvtOSzr8rBk/aNyV2g==}
     dev: true
 
   /@types/prettier/2.6.3:
@@ -2057,11 +2053,11 @@ packages:
   /@types/react-dom/18.0.5:
     resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
-      '@types/react': 18.0.9
+      '@types/react': 18.0.10
     dev: true
 
-  /@types/react/18.0.9:
-    resolution: {integrity: sha512-9bjbg1hJHUm4De19L1cHiW0Jvx3geel6Qczhjd0qY5VKVE2X5+x77YxAepuCwVh4vrgZJdgEJw48zrhRIeF4Nw==}
+  /@types/react/18.0.10:
+    resolution: {integrity: sha512-dIugadZuIPrRzvIEevIu7A1smqOAjkSMv8qOfwPt9Ve6i6JT/FQcCHyk2qIAxwsQNKZt5/oGR0T4z9h2dXRAkg==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -2285,22 +2281,13 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /aws-cdk-lib/2.25.0_constructs@10.1.21:
-    resolution: {integrity: sha512-rcQeQu/lTmi1tg5DwV0gBqJtF73khApfHt9n7BIHkKbUWvCB50lIL1Q1/7cHvTicfQ62UnwFoPWwB0YqQceDVQ==}
+  /aws-cdk-lib/2.27.0_constructs@10.1.25:
+    resolution: {integrity: sha512-CsTy/+RIBMvP9LlZjkQakkKPpwU50+HAMCMaGOcyIHADDQdXobGcZXTO+Tq00sH2DoQjPV1ZhhBim5z3k/2KXw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
     dependencies:
-      '@balena/dockerignore': 1.0.2
-      case: 1.6.3
-      constructs: 10.1.21
-      fs-extra: 9.1.0
-      ignore: 5.2.0
-      jsonschema: 1.4.1
-      minimatch: 3.1.2
-      punycode: 2.1.1
-      semver: 7.3.7
-      yaml: 1.10.2
+      constructs: 10.1.25
     dev: false
     bundledDependencies:
       - '@balena/dockerignore'
@@ -2313,8 +2300,8 @@ packages:
       - semver
       - yaml
 
-  /aws-cdk/2.25.0:
-    resolution: {integrity: sha512-6NZKDPgCQ0O3xlpk22sR54N4yCvGt2tM2bkKHPrV6n4HCI+a349hsF4xSngiSrHAoaNQKMgAwScpj3GTZcI+oA==}
+  /aws-cdk/2.27.0:
+    resolution: {integrity: sha512-TAKSP4ViFqj+jktFwJl4IE4jZbQCsH32t7L/VcGY71VZV9VqvuzkjF4gGx+hrES+A/dFBtLmPXsumyJu5y0elQ==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -2614,11 +2601,6 @@ packages:
   /caniuse-lite/1.0.30001344:
     resolution: {integrity: sha512-0ZFjnlCaXNOAYcV7i+TtdKBp0L/3XEU2MF/x6Du1lrh+SRX4IfzIVL4HNJg5pB2PmFb8rszIGyOvsZnqqRoc2g==}
 
-  /case/1.6.3:
-    resolution: {integrity: sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==}
-    engines: {node: '>= 0.8.0'}
-    dev: false
-
   /chalk/2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
     engines: {node: '>=4'}
@@ -2804,8 +2786,8 @@ packages:
     resolution: {integrity: sha512-xFxOwqIzR/e1k1gLiWEophSCMqXcwVHIH7akf7b/vxcUeGunlj3hvZaaqxwHsTgn+IndtkQJgSztIDWeumWJDQ==}
     dev: false
 
-  /constructs/10.1.21:
-    resolution: {integrity: sha512-eqaPkH+RPqDSP2tYLU80AGi3GYEsKxTTSr01k1Xz4J0Q9Le9RczUswvLlWXNVQv2PNwh0LKMJRlGHduO4ZJ3Jg==}
+  /constructs/10.1.25:
+    resolution: {integrity: sha512-etUavUwFJ3oTxoP9ax8Dvzv47Nzk9QHRnubL3cEOxLATd8b0SOLFN4xB7FP6eEg/D+cI7rgXTOQH9Oj4rIhwqw==}
     engines: {node: '>= 14.17.0'}
     dev: false
 
@@ -3646,11 +3628,6 @@ packages:
       minimatch: 3.1.2
     dev: false
 
-  /ignore/5.2.0:
-    resolution: {integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==}
-    engines: {node: '>= 4'}
-    dev: false
-
   /image-size/1.0.0:
     resolution: {integrity: sha512-JLJ6OwBfO1KcA+TvJT+v8gbE6iWbj24LyDNFgFEN0lzegn6cC6a/p3NIDaepMsJjQjlUWqIC7wJv8lBFxPNjcw==}
     engines: {node: '>=12.0.0'}
@@ -4402,10 +4379,6 @@ packages:
       graceful-fs: 4.2.10
     dev: false
 
-  /jsonschema/1.4.1:
-    resolution: {integrity: sha512-S6cATIPVv1z0IlxdN+zUk5EPjkGCdnhN4wVSBlvoUO1tOLJootbo9CquNJmbIh4yikWHiUedhRYrNPn1arpEmQ==}
-    dev: false
-
   /jsonwebtoken/8.5.1:
     resolution: {integrity: sha512-XjwVfRS6jTMsqYs0EsuJ4LGxXV14zQybNd4L2r0UvbVnSF9Af8x7p5MzbJ90Ioz/9TI41/hTCvznF/loiSzn8w==}
     engines: {node: '>=4', npm: '>=1.4.28'}
@@ -4496,7 +4469,7 @@ packages:
     dev: false
 
   /lodash.memoize/4.1.2:
-    resolution: {integrity: sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=}
+    resolution: {integrity: sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==}
     dev: true
 
   /lodash.once/4.1.1:
@@ -6171,13 +6144,12 @@ packages:
     hasBin: true
     dev: true
 
-  /ts-jest/28.0.3_7sa2e64agunq5kj4zcolhrnkbm:
-    resolution: {integrity: sha512-HzgbEDQ2KgVtDmpXToqAcKTyGHdHsG23i/iUjfxji92G5eT09S1m9UHZd7csF0Bfgh9txM4JzwHnv7r1waFPlw==}
+  /ts-jest/28.0.4_3idyv6jqzrc23kpntvtlm4rwnq:
+    resolution: {integrity: sha512-S6uRDDdCJBvnZqyGjB4VCnwbQrbgdL8WPeP4jevVSpYsBaeGRQAIS08o3Svav2Ex+oXwLgJ/m7F24TNq62kA1A==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
       '@babel/core': '>=7.0.0-beta.0 <8'
-      '@types/jest': ^27.0.0
       babel-jest: ^28.0.0
       esbuild: '*'
       jest: ^28.0.0
@@ -6185,14 +6157,11 @@ packages:
     peerDependenciesMeta:
       '@babel/core':
         optional: true
-      '@types/jest':
-        optional: true
       babel-jest:
         optional: true
       esbuild:
         optional: true
     dependencies:
-      '@types/jest': 27.5.1
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
       jest: 28.1.0_wtznr7rjqt45d2fagkvliwwhhm
@@ -6483,6 +6452,7 @@ packages:
   /yaml/1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
     engines: {node: '>= 6'}
+    dev: true
 
   /yargs-parser/20.2.9:
     resolution: {integrity: sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==}

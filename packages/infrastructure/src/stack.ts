@@ -74,7 +74,7 @@ export default class DefaultStack extends cdk.Stack {
             compress: true,
             allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
             viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
-            ...cloudfront.CachePolicy.CACHING_OPTIMIZED,
+            cachePolicy: cloudfront.CachePolicy.CACHING_OPTIMIZED,
           },
         });
 
